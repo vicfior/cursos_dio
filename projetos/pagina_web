@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>HTML para iniciantes</title>
+    </head>
+    <body style="background-color: rgb(248, 232, 225);">
+        <h1 id="inicio" style="background-color: #7e2135;"><font style="color: rgb(255, 255, 255);">HTML para iniciantes</font></h1>
+        <hr color="#7e2135">
+        <h2><font style="color: #055e57;">Índice</font></h2>
+        <ul>
+            <li><a href="#história">História</a></li>
+            <li><a href="#internet">Surgimento da Internet</a></li>
+            <li><a href="#html">Surgimento do HTML</a></li>
+            <li><a href="#como_funciona">Como funciona o HTML?</a></li>
+            <li><a href="#tags">O que são tags?</a></li>
+            <li><a href="#principais">Principais tags utilizadas</a></li>
+        </ul>
+        <h2 id="história"><font style="color: #055e57;">História</font></h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>Para contextualizar, será explicada brevemente a história da computação, indo dos primeiros computadores até o advento da internet e o que ela se tornou nos dias de hoje.</p>
+        <h3><font style="color: #055e57;">Os primeiros computadores</font></h3>
+        <ol>
+            <li>
+                <h4><font style="color: #055e57;">A máquina analítica</font></h4>
+                <p><strong>Charles Babbage</strong> foi um engenherio mecânico, filósofo e matemático que desenvolveu o primeiro <del>computador</del> máquina analítica. A máquina analítica nada mais é que um aparato mecânico que possui <abbr title="Unidade Lógica Aritmética">ULA</abbr>, uma memória capaz de guardar mil números de 40 dígitos, entrada de dados e fórmulas, que seriam inseridos através de cartões perfurados. A linguagem dessa máquina utilizada loops e construção condicional, parecida com <strong>Assembly</strong></p>
+            </li>
+            <li>
+                <h4><font style="color: #055e57;">A máquina de Turing e o Colossus</font></h4>
+                <p><strong>Alan Turing</strong> foi um matemático e um dos primeiros cientistas da computação modernos. Sua máquina de Turing é um modelo matemático de uso geral capaz de emular qualquer unidade computacional existente. Além de sua contribuição com a máquina de Turing, ele também desenvolveu o Colossus, o primeiro computador programável do mundo</p>    
+            </li>
+            <li>
+                <h4> <font style="color: #055e57;">ENIAC</font></h4>
+                <p>O <strong><abbr title="Electronic Numerical Integrator and Computer">ENIAC</abbr></strong> foi o primeiro computador eletrônico de grande escala. Desenvolvido pelos cientistas norte-americanos John Eckert e John Mauchly durante a Segunda Guerra Mundial, o ENIAC foi uma verdadeira máquina tecnológica.</p>
+            </li>
+            <li>
+                <h4><font style="color: #055e57;">Segunda geração</font></h4>
+                <p>A segunda geração de computadores começou a partir da invenção do transistor em 1947, que substituiu as válvulas eletrônicas. Os transistores tornaram os computadores menores, mais rápidos, mais baratos e mais confiáveis. O IBM 1401 é um exemplo notável dessa época. Durante esse período, os computadores começaram a utilizar linguagens de programação de alto nível como <strong>COBOL</strong> e <strong>FORTRAN</strong>, tornando a programação mais acessível.</p>
+            </li>
+            <li>
+                <h4><font style="color: #055e57;">Terceira geração</font></h4>
+                <p>A terceira geração de computadores foi marcada pelo desenvolvimento dos circuitos integrados, que permitiram a colocação de milhares de transistores em um único chip de silício. Isso resultou em um aumento significativo na velocidade e na eficiência dos computadores, além de uma redução no custo. Os computadores começaram a ser mais amplamente utilizados em empresas e instituições. A <mark>linguagem de programação C</mark> também foi desenvolvida nesse período.</p>
+            </li>
+            <li>
+                <h4><font style="color: #055e57;">Quarta geração</font></h4>
+                <p>A quarta geração de computadores é caracterizada pelo uso de microprocessadores, que são circuitos integrados complexos que contêm a unidade central de processamento (CPU) de um computador em um único chip. Isso levou ao desenvolvimento de computadores pessoais (PCs), que se tornaram comuns em residências e escritórios. A revolução da informática pessoal começou com a introdução do Apple II e do IBM PC. Atualmente, continuamos a ver avanços na miniaturização e na potência dos microprocessadores, levando ao desenvolvimento de dispositivos móveis e computação em nuvem.</p>
+            </li>
+        </ol>
+        
+        <h2 id="internet" style="color: #055e57;">Surgimento da Internet</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>A Internet começou como uma rede de pesquisa financiada pelo governo dos EUA chamada ARPANET na década de 1960. Com o tempo, a ARPANET cresceu e se transformou na Internet global que conhecemos hoje. A introdução da World Wide Web (WWW) em 1991 por Tim Berners-Lee revolucionou o acesso à informação, permitindo que documentos e recursos fossem facilmente acessados e compartilhados através de navegadores web.</p>
+        <ul>
+            <li>
+                <h5><u><font style="color: #055e57;">ARPANET: O Início</font></u></h5>
+                <p>A história da internet começa na década de 1960 com a <abbr title="Advanced Research Projects Agency Network">ARPANET</abbr>, uma rede de computadores financiada pela ARPA, uma agência do Departamento de Defesa dos EUA. A ARPANET foi projetada para permitir a comunicação entre instituições de pesquisa e universidades. O primeiro nó da ARPANET foi instalado na <strong>Universidade da Califórnia, Los Angeles (UCLA)</strong> em 1969.</p>
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">Protocolos Fundamentais</font></u></h5>
+                <p>Para que a comunicação entre diferentes computadores fosse possível, foram desenvolvidos protocolos fundamentais, como o <u>TCP/IP (Transmission Control Protocol/Internet Protocol)</u>. Em 1983, o TCP/IP se tornou o protocolo padrão para a ARPANET, facilitando a interconexão de redes de diferentes tipos, o que levou à formação de uma "rede de redes" – a Internet.</p>
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">Expansão para Uso Acadêmico e Governamental</font></u></h5>
+                <p>Nos anos 1970 e 1980, a internet continuou a crescer, principalmente em ambientes acadêmicos e governamentais. Novas redes, como a <u>NSFNET (National Science Foundation Network)</u>, foram estabelecidas para conectar ainda mais universidades e centros de pesquisa. Isso levou a um aumento significativo na troca de informações e colaboração científica.</p>
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">Surgimento da World Wide Web</font></u></h5>
+                <p>Embora a internet já estivesse em uso por décadas, a World Wide Web (WWW), criada por Tim Berners-Lee em 1991, revolucionou a maneira como a informação era acessada e compartilhada. Berners-Lee, trabalhando no CERN (Organização Europeia para a Pesquisa Nuclear), desenvolveu o HTML, o HTTP (HyperText Transfer Protocol) e os primeiros navegadores web. A WWW permitia a criação de documentos hipermídia que podiam ser facilmente navegados e conectados através de links.</p>
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">A Era dos Navegadores Web</font></u></h5>
+                <p>A popularização da internet entre o público em geral começou na década de 1990 com o surgimento de navegadores web amigáveis ao usuário, como o Mosaic (lançado em 1993) e, posteriormente, o Netscape Navigator. Esses navegadores permitiram que usuários com pouco conhecimento técnico acessassem facilmente a informação na web, acelerando a adoção da internet.</p>
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">Comercialização e Explosão do Uso</font></u></h5>
+                <p>Com a abertura da internet para uso comercial no início dos anos 1990, muitas empresas começaram a explorar as possibilidades da rede. O comércio eletrônico começou a se desenvolver, com pioneiros como Amazon e eBay surgindo em meados da década de 1990. Os provedores de serviços de internet (ISPs) também começaram a oferecer conexões de internet para residências, levando à explosão do uso doméstico da internet.</p>    
+            </li>
+            <li>
+                <h5><u><font style="color: #055e57;">A Era das Redes Sociais e Mobilidade</font></u></h5>
+                <p>Nos anos 2000, a internet continuou a evoluir com o surgimento das redes sociais (como Facebook e Twitter) e a explosão do conteúdo gerado pelo usuário. A introdução de smartphones e a popularização da banda larga móvel transformaram a internet em uma ferramenta essencial para a vida cotidiana, permitindo acesso à rede em qualquer lugar e a qualquer momento.</p>
+                <p>Como já disse Tim Berners-Lee:</p>
+                <blockquote><strong><i>"A web não está concluída, é apenas a ponta do iceberg. As novas mudanças irão balançar o mundo ainda mais."</i></strong></blockquote>
+            </li>
+        </ul>
+        
+        <h2 id="html" style="color: #055e57;">Surgimento do HTML</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>O HTML (HyperText Markup Language) surgiu no final dos anos 1980 e início dos anos 1990, criado por Tim Berners-Lee enquanto trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear). Berners-Lee estava buscando uma maneira de facilitar a troca de informações entre cientistas ao redor do mundo, e propôs um sistema que utilizava hipertexto para conectar documentos. Em 1991, ele publicou a primeira versão do HTML, juntamente com o HTTP (HyperText Transfer Protocol) e o primeiro navegador web, o WorldWideWeb. Esses desenvolvimentos permitiram a criação e a navegação de documentos interconectados na Internet, formando a base da World Wide Web.</p>
+        <p>A primeira versão do HTML era bastante simples, permitindo apenas a criação básica de links e formatação de texto. Com o tempo, o HTML evoluiu para incluir uma ampla variedade de funcionalidades, como a incorporação de imagens, tabelas e formulários. Essa evolução foi guiada pelo W3C (World Wide Web Consortium), fundado por Berners-Lee em 1994, que continua a desenvolver e padronizar o HTML. A padronização e a evolução contínua do HTML transformaram-no em uma ferramenta fundamental para o desenvolvimento web, permitindo a criação de sites interativos e complexos que são acessíveis em qualquer navegador.</p>
+        
+        <h2 id="como_funciona" style="color: #055e57;">Como funciona o HTML?</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>HTML é uma linguagem de marcação usada para criar e estruturar seções, parágrafos, e links em páginas da web. Ele usa uma série de elementos, representados por tags, para indicar ao navegador como exibir o conteúdo da página. Por exemplo, um parágrafo de texto é incluído dentro das tags <code>&lt;p&gt;</code> e <code>&lt;/p&gt;</code> enquanto um cabeçalho de nível 1 é incluído dentro das tags <code>&lt;h1&gt;</code> e <code>&lt;/h1&gt;</code>.</p>
+
+        <h2 id="tags" style="color: #055e57;">O que são tags?</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>Tags são a base do HTML. Elas são usadas para definir diferentes tipos de conteúdo e elementos em uma página web. Cada tag HTML normalmente vem em pares: uma tag de abertura e uma tag de fechamento. A tag de abertura pode incluir atributos adicionais para especificar propriedades ou comportamentos do elemento.</p>
+        <blockquote>
+            <strong><p>Por exemplo:</p></strong>
+            <ul>
+                <li>
+                    <code>&lt;p&gt;</code> e <code>&lt;/p&gt;</code> definem um parágrafo;
+                </li>
+                <li>
+                    <code>&lt;a href="https://www.example.com"&gt;</code> e <code>&lt;/a&gt;</code> definem um link para outra página web
+                </li>
+                <li>
+                    <code>&lt;img src"image.jpg" alt="Descrição da imagem"&gt;</code> define uma imagem
+                </li>
+            </ul>
+        </blockquote>
+        <h2 id="principais" style="color: #055e57;">Principais tags utilizadas</h2>
+        <small><a href="#inicio">Voltar</a></small>
+        <p>Aqui estão as tags mais utilizadas:</p>
+        <ul>
+            <li>
+                <p>&lt;html&gt;: Define o documento HTML.</p>
+            </li>
+            <li>
+                <p>&lt;head&gt;: Contém metadados sobre o documento, como o título e links para estilos CSS.</p>
+            </li>
+            <li>
+                <p>&lt;title&gt;: Define o título do documento, que é exibido na barra de título do navegador.</p>
+            </li>
+            <li>
+                <p>&lt;body&gt;: Contém todo o conteúdo visível da página web.</p>
+            </li>
+            <li>
+                <p>&lt;h1&gt; a &lt;h6&gt;: Definem cabeçalhos, sendo &lt;h1&gt; o mais importante e &lt;h6&gt; o menos importante.</p>
+            </li>
+            <li>
+                <p>&lt;p&gt;: Define um parágrafo de texto.</p>
+            </li>
+            <li>
+                <p>&lt;a&gt;: Define um link.</p>
+            </li>
+            <li>
+                <p>&lt;img&gt;: Define uma imagem.</p>
+            </li>
+            <li>
+                <p>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;: Definem listas não ordenadas e ordenadas, e itens de lista.</p>
+            </li>
+            <li>
+                <p>&lt;div&gt;: Define uma seção ou divisão no documento, usada para agrupar elementos para fins de estilo ou script.</p>
+            </li>
+            <li>
+                <p>&lt;span&gt;: Define uma seção em linha, usada para agrupar texto para fins de estilo.</p>
+            </li>
+        </ul>
+        <p>Para mais informações clique em <strong><a href="https://www.w3schools.com/tags/" target="_blank">Tags HTML</a></strong></p>
+    </body>
+</html>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
