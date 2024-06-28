@@ -5,5 +5,5 @@ Elaboração de um website utilizando as estruturas básicas de HTML somente com
 
 ![image](https://github.com/vicfior/devhtml_dio/assets/104793741/4115d6f3-7b6b-4596-aaba-9d1e05c12f0d)
 
-Para ver o código da página clique em: <a href="pagina_web">
+Para ver o código da página clique em: <a href="https://github.com/vicfior/devhtml_dio/blob/ba85af2db5f17f5ebad7e079677a11a5cfb82072/projetos/pagina_web">Primeiro website em HTML</a>
 
