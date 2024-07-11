@@ -1,0 +1,331 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 0px;
+    color: rgb(88, 10, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu fieldset {
+    border-radius: 15px;
+    border-color: #131349;
+    height: 96%;
+}
+
+.menu li:hover {
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(88, 10, 10);
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.842);
+    
+    min-height: 180px;
+    display: flex; 
+    
+    flex-flow: row;
+    color: #580a0a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.principal .header {
+    margin-left: 450px;
+    align-items: center;
+}
+
+.header h1 {
+        margin-left: 10px;
+        color: rgb(88, 10, 10);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+}
+
+.principal .header img {
+    width: 100px;
+}
+
+.divider {
+    width: 97%;
+    border: 0.3px solid #131349;
+    margin: 1px 0;
+} 
+
+.content {
+    background-color: rgba(255, 255, 255, 0.842);
+    min-height: 600px;
+    padding: 20px;
+}
+
+.content legend {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(88, 10, 10);
+}
+
+.content li:hover { 
+    background-color: rgba(193, 193, 240, 0.39);  
+    border-radius: 5px;
+    width: 150px;
+    color: rgb(84, 18, 18);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.content fieldset {
+    border-radius: 15px;
+    border-color: #131349;
+    height: 70%;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.842);
+    min-height: 100px;
+    display: flex; 
+    flex-flow: row;
+}
+
+.footer table {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.footer fieldset {
+    border-radius: 15px;
+    border-color: #131349;
+    height: 77%;
+    width: 96%;
+}
+
+.footer td[id="im"]:hover {
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 20px;
+    width: 150px
+}
+
+.footer legend {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(88, 10, 10);
+}
+
+.clinica-page .header {
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 20px;
+    margin-right: 45px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    min-height: 0px;
+}
+
+.clinica-page .header img {
+    width: 170px;
+}
+
+.clinica-page .divider {
+    margin-top: 10px;
+    color: #131349;
+}
+
+.clinica-page .content fieldset {
+    border-radius: 15px;
+    border-color: #131349;
+    height: 97%;
+}
+
+.clinica-page .content h3:hover {
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.horario .header {
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 20px;
+    margin-right: 45px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    min-height: 0px;
+}
+
+.horario .header img {
+    width: 189px;
+}
+
+.horario .header table {
+    border-color: #131349;
+}
+
+.horario .content fieldset {
+    border-radius: 15px;
+    border-color: #131349;
+    height: 90%;
+}
+
+.horario .content table{
+    margin-top: 30px;
+    margin-left: 400px;
+    -webkit-box-shadow: 14px 20px 19px -6px rgba(0,0,0,0.37);
+    -moz-box-shadow: 14px 20px 19px -6px rgba(0,0,0,0.37);
+    box-shadow: 14px 20px 19px -6px rgba(0,0,0,0.37);
+}
+
+.horario .content table tbody tr:hover {
+    background-color: rgba(124, 124, 221, 0.507);
+    cursor: pointer;
+}
+
+.horario .content table tr {
+    height: 37px;
+}
+
+.horario .content table tbody td{
+    text-align: center;
+    height: 5px;
+    border-color: #131349;
+}
+
+.horario .content table tbody tr:nth-child(even) td { /*nth child pega tudo que é par e estiliza*/
+    background-color: rgba(193, 193, 240, 0.39);
+}
+
+.horario .content table thead th {
+    color: rgb(88, 10, 10);
+    background-color: rgba(193, 193, 240, 0.39);
+}
+
+.contato .header {
+    align-items: center;
+    margin-left: 5px;
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 20px;
+    margin-right: 45px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    min-height: 0px;
+}
+
+.contato .header img {
+    width: 170px;
+    margin-left: 15px;
+}
+
+.contato .content {
+    display: flex;
+    flex-flow: column;
+}
+
+.contato .content .field1 {
+    flex-flow: column;
+    margin-right: 160px;
+    height: 600px;
+}
+
+.contato .content .field2 {
+    margin-top: -600px;
+    margin-left: 900px;
+    width: 350px;
+    flex-flow: column;
+}
+
+.contato .content .field1 fieldset[id="f1"] {
+    height: 90px;
+    border-style:none;
+}
+
+.contato .content .field2 fieldset[id="f2"] {
+    height: 540px;
+    width: 40px;
+    border-style: dotted;
+}
+
+.contato .content .field1 h3 {
+        margin-left: 10px;
+        color: #580a0a;
+        display: flex;
+        margin-top: 50px;
+}
+
+.contato .content .field1 form {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #580a0a;
+    font-weight: bold;
+}
+
+.contato .content .field1 form input {
+    width: 233px;
+    margin-top: 5px;
+}
+
+.contato .content .field1 form input[id="i1"]{
+    margin-left: 41px;
+}
+
+.contato .content .field1 form input[id="i2"]{
+    margin-left: 38px;
+}
+
+.contato .content .field1 form select[id="i3"]{
+    margin-left: 29px;
+    margin-top: 5px;
+    width: 240px;
+}
+
+.contato .content .field1 form textarea {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.contato .content .field1 table td[id="a1"]:hover {
+    background-color: rgba(193, 193, 240, 0.39);
+    border-radius: 20px;
+    width: 200px;
+    cursor:pointer;
+}
+
+.contato .content .field1 form fieldset[id="f3"] {
+    border-style: none;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 84px;
+}
+
+
+
+
+
+
+
