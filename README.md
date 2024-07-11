@@ -1,4 +1,4 @@
-<h1 align="center">Curso - Formação HTML Web developer</h1>
+<h1 align="center">Formação HTML Web developer</h1>
 
 Este repositório possui todos os projetos desenvolvidos no curso HTML Web Developer da plataforma DIO. O curso se destina a formação inicial em frontend, onde é possível aprender conceitos básicos e intermediários da criação de páginas em HTML.
 
