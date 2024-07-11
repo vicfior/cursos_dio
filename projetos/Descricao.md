@@ -11,6 +11,11 @@ Para ver o código da página clique em: [Primeira página web](https://github.c
 
 Elaboração de um site de uma clínica utilizando tabelas, formulários e estilização de HTML com o básico de CSS. Foi elaborado o site do hospital Grey Sloan Memorial Hospital, hospital da série Grey's Anatomy.
 
-![image]()
+<p align="center">
+<img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/index.png" width="490px"/> 
+<img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/page2.png" width="510px"/>
+<img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/page3.png" width="500px"/>
+<img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/page4.png" width="500px"/>
+</p>
 
-
+Para ver o código da página acesse: [Segundo projeto em HTML](https://github.com/vicfior/devhtml_dio/tree/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto).
