@@ -1,0 +1,215 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { 
+    list-style: none; padding-left: 5px; 
+}
+
+a { 
+    color:blue; text-decoration: none;
+}
+
+.logo {
+    margin-top: -77px;
+    margin-bottom: -97px;
+    margin-left: 10px;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,9rem) minmax(0,1.0fr) minmax(0,16rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.main {
+    width: 950px;
+    text-align: justify;
+}
+
+.main p {
+    text-indent: 1em;
+}
+
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 10px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    margin-left: -160px;
+}
+
+.fig1 {
+    float: right;
+}
+
+img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+h2 {
+    color: rgb(245, 62, 93);
+}
+
+h3 {
+    color:rgb(170, 62, 161);
+}
+
+.divider {
+    border-top: solid 1px #cecece;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    background-color: rgba(249, 249, 251, 0.637);
+    border-radius: 5px;
+    font-size: 14.5px;
+}
+
+.fig2 {
+    float: left;
+}
+
+.video {
+    border-radius: 5px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.but {
+    margin-top: -40px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(248, 166, 179, 0.329);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(245, 62, 93); 
+}
+
+a:hover {
+    background-color:rgba(243, 168, 180, 0.39) ;
+    border-radius: 6.8px;
+}
+
+.video2 {
+    border-radius: 5px;
+    align-self: center;
+    margin-left: 26.5%;
+    margin-top: 27px;
+    width: 450px;
+    height: 253px;
+}
+
+.tabela {
+    margin-bottom: 30px;
+}
+
+table {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 6px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(105, 24, 37);
+    font-weight: 510;
+}
+
+th, td {
+    border: 1px solid rgb(197, 197, 197);  
+    height: 45px;
+    width: 5px;
+}
+
+table thead th {
+    background-color: rgb(245, 62, 93); 
+    color: rgb(255, 255, 255);
+}
+
+table tbody tr:hover td {
+    background-color: rgba(243, 168, 180, 0.39);
+    cursor: pointer;
+}
+
+.botao {
+    margin-top: -17px;
+    margin-bottom: 37px;
+}
+
+.pesquisar {
+    margin-left: 1130px;
+    display: flex;
+    flex-grow: 1;
+}
+
+input {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 8px;
+    height: 35px;
+    width: 300px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesq  {
+    width: 25px; 
+}
+
+.serch {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+input::placeholder {
+    padding: 8px;
+}
+
+
