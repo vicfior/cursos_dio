@@ -6,7 +6,8 @@ Ao longo do curso são elaborados 3 projetos com níveis ascendentes de dificuld
 
 <p align="center">
   <img src="https://github.com/vicfior/devhtml_dio/assets/104793741/4115d6f3-7b6b-4596-aaba-9d1e05c12f0d" width="500px"/>
-  <img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/index.png" width="500px"/> 
+  <img src="https://github.com/vicfior/devhtml_dio/blob/392ecb5494205feae2fafa25f3a1da7235d08978/projetos/Segundo%20Projeto/imagens/index.png" width="500px"/>
+  <img src="https://github.com/vicfior/devhtml_dio/blob/60153f672ca2396e90f361d5d82fcb5c2fceee2e/projetos/Terceiro%20projeto/imagens/swiftpedia.png" width="500px"/>
 </p>
 
 ## :clamp: Tecnologias utilizadas
