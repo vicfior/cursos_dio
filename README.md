@@ -12,3 +12,16 @@ Ao longo do curso são elaborados 3 projetos com níveis ascendentes de dificuld
 
 ## :clamp: Tecnologias utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## 	:question: Como rodar o projeto 
+
+Caso nunca tenha executado um programa em HTML e CSS, siga os passos abaixo:
+
+1. Baixe a pasta do projeto que você quer executar no seu navegador.
+2. Abra essa pasta no seu editor de código de preferência (Visual Studio Code, Sublime Text, Atom, Codepen, entre outros)
+3. Instale um servidor local (Liver Serve no Visual Studio Code ou http.server, um módulo Python)
+4. Abra a página seguindo as instruções do servidor escolhido.
+
+
+ > [!NOTE]
+> Para informações mais detalhadas acesse o diretório de Projetos ou clique aqui: [Projetos](https://github.com/vicfior/devhtml_dio/blob/cb52aa7d2fcb164a8fd8664a153149556ede0a5f/projetos/Descricao.md)
